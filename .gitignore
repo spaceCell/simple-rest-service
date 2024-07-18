@@ -12,6 +12,7 @@
 *.iws
 *.classpath
 *.project
+.idea/
 .idea/workspace.xml
 
 # Logs
