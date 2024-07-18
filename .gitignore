@@ -1,23 +1,37 @@
-HELP.md
-target/
-!../.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-secrets/
+# Maven specific
+/target/
+/build/
+/mvnw
+/mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDE specific
+/.idea/
 *.iml
 *.ipr
-/.mvn/wrapper/maven-wrapper.jar
-/.mvn/wrapper/maven-wrapper.properties
+*.iws
+*.classpath
+*.project
+.idea/workspace.xml
+
+# Logs
+logs/
+*.log
+
+# Test coverage reports
+coverage/
+
+# Dependency directory
+/bin/
+/lib/
+
+# Compiled Java classes
+*.class
+
+# Gradle specific
+.gradle/
+build/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
