@@ -1,4 +1,4 @@
-# Spring Boot specific
+# Maven specific
 /target/
 /build/
 /mvnw
@@ -6,21 +6,21 @@
 !.mvn/wrapper/maven-wrapper.jar
 
 # IDE specific
-.idea/
+/.idea/
 *.iml
 *.ipr
 *.iws
 *.classpath
 *.project
-*.log
+.idea/
+.idea/workspace.xml
 
 # Logs
 logs/
+*.log
 
 # Test coverage reports
-*.iml
-*.iws
-*.ipr
+coverage/
 
 # Dependency directory
 /bin/
@@ -35,3 +35,4 @@ build/
 
 # Miscellaneous
 .DS_Store
+Thumbs.db
